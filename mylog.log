@@ -1,0 +1,310 @@
+12:40:27,385  INFO ContextLoader:305 - Root WebApplicationContext: initialization started
+12:40:27,481  INFO XmlWebApplicationContext:582 - Refreshing Root WebApplicationContext: startup date [Tue Dec 18 12:40:27 CST 2018]; root of context hierarchy
+12:40:27,530  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext.xml]
+12:40:28,114  INFO AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+12:40:28,245  INFO MLog:80 - MLog clients using log4j logging.
+12:40:28,320  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+12:40:28,721  INFO Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+12:40:28,724  INFO Environment:213 - HHH000206: hibernate.properties not found
+12:40:28,726  INFO Environment:317 - HHH000021: Bytecode provider name : javassist
+12:40:28,963  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+12:40:29,114  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1h5zno11jtzyjl|31d65ed0, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1h5zno11jtzyjl|31d65ed0, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+12:40:29,463  INFO Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+12:40:29,531  INFO LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+12:40:30,409  INFO SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+12:40:30,864  INFO HibernateTransactionManager:357 - Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1h5zno11jtzyjl|31d65ed0, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1h5zno11jtzyjl|31d65ed0, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]] of Hibernate SessionFactory for HibernateTransactionManager
+12:40:30,930  INFO ContextLoader:345 - Root WebApplicationContext: initialization completed in 3542 ms
+12:40:31,331  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+12:40:31,442  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+12:40:31,490  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+12:40:31,495  INFO BeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+12:40:31,497  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+12:40:31,498  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+12:40:31,498  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+12:40:31,499  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+12:40:31,499  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+12:40:31,499  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+12:40:31,501  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+12:40:31,508  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+12:40:31,508  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+12:40:31,509  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+12:40:31,509  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+12:40:31,509  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+12:40:31,510  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+12:40:31,510  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+12:40:31,511  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+12:40:31,511  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+12:40:31,512  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+12:40:31,512  INFO BeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+12:40:31,531  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+12:40:31,535  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+12:40:31,537  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+12:40:31,537  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+12:40:31,538  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+12:40:31,538  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+12:40:31,540  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+12:40:31,540  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+12:40:31,541  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+12:40:31,541  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+12:40:31,541  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+12:40:31,561  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+12:40:31,563  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+12:40:31,564  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+12:41:42,572  INFO QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+12:42:51,416  WARN HqlSqlWalker:992 - [DEPRECATION] Encountered positional parameter near line 1, column 40 in HQL: [from com.so.entity.User u where u.code=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+14:11:16,607  INFO ContextLoader:305 - Root WebApplicationContext: initialization started
+14:11:16,792  INFO XmlWebApplicationContext:582 - Refreshing Root WebApplicationContext: startup date [Tue Dec 18 14:11:16 CST 2018]; root of context hierarchy
+14:11:16,842  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext.xml]
+14:11:17,511  INFO AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+14:11:17,639  INFO MLog:80 - MLog clients using log4j logging.
+14:11:17,681  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+14:11:17,945  INFO Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+14:11:17,947  INFO Environment:213 - HHH000206: hibernate.properties not found
+14:11:17,949  INFO Environment:317 - HHH000021: Bytecode provider name : javassist
+14:11:18,137  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+14:11:18,294  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1h98gfc14xpdfh|3599e86d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1h98gfc14xpdfh|3599e86d, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+14:11:18,635  INFO Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+14:11:18,717  INFO LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+14:11:19,457  INFO SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+14:11:19,888  INFO HibernateTransactionManager:357 - Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1h98gfc14xpdfh|3599e86d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1h98gfc14xpdfh|3599e86d, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]] of Hibernate SessionFactory for HibernateTransactionManager
+14:11:19,948  INFO ContextLoader:345 - Root WebApplicationContext: initialization completed in 3337 ms
+14:11:20,165  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+14:11:20,236  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+14:11:20,262  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+14:11:20,265  INFO BeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+14:11:20,265  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+14:11:20,265  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+14:11:20,265  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+14:11:20,265  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+14:11:20,266  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+14:11:20,266  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+14:11:20,266  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+14:11:20,267  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+14:11:20,267  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+14:11:20,267  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+14:11:20,268  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+14:11:20,268  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+14:11:20,268  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+14:11:20,268  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+14:11:20,269  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+14:11:20,269  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+14:11:20,269  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+14:11:20,269  INFO BeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+14:11:20,269  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+14:11:20,271  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+14:11:20,272  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+14:11:20,272  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+14:11:20,273  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+14:11:20,273  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+14:11:20,273  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+14:11:20,274  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+14:11:20,274  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+14:11:20,274  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+14:11:20,275  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+14:11:20,289  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+14:11:20,290  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+14:11:20,290  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+14:11:43,233  INFO QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+14:13:44,002  WARN HqlSqlWalker:992 - [DEPRECATION] Encountered positional parameter near line 1, column 38 in HQL: [from com.so.entity.Orders where uid =?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+14:13:48,040  WARN HqlSqlWalker:992 - [DEPRECATION] Encountered positional parameter near line 1, column 38 in HQL: [from com.so.entity.Orders where oid =?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+14:13:53,755  WARN HqlSqlWalker:992 - [DEPRECATION] Encountered positional parameter near line 1, column 40 in HQL: [from  com.so.entity.Product where cid =?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+14:15:11,293  WARN HqlSqlWalker:992 - [DEPRECATION] Encountered positional parameter near line 1, column 39 in HQL: [from com.so.entity.Category where cid=? ].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+14:20:23,037  INFO ContextLoader:305 - Root WebApplicationContext: initialization started
+14:20:23,134  INFO XmlWebApplicationContext:582 - Refreshing Root WebApplicationContext: startup date [Tue Dec 18 14:20:23 CST 2018]; root of context hierarchy
+14:20:23,187  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext.xml]
+14:20:23,647  INFO AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+14:20:23,779  INFO MLog:80 - MLog clients using log4j logging.
+14:20:23,831  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+14:20:24,111  INFO Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+14:20:24,114  INFO Environment:213 - HHH000206: hibernate.properties not found
+14:20:24,116  INFO Environment:317 - HHH000021: Bytecode provider name : javassist
+14:20:24,289  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+14:20:24,430  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1h9k5u518dn5ic|603bd2cf, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1h9k5u518dn5ic|603bd2cf, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+14:20:24,752  INFO Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+14:20:24,831  INFO LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+14:20:25,488  INFO SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+14:20:25,956  INFO HibernateTransactionManager:357 - Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1h9k5u518dn5ic|603bd2cf, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1h9k5u518dn5ic|603bd2cf, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]] of Hibernate SessionFactory for HibernateTransactionManager
+14:20:26,009  INFO ContextLoader:345 - Root WebApplicationContext: initialization completed in 2969 ms
+14:20:26,218  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+14:20:26,305  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+14:20:26,336  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+14:20:26,340  INFO BeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+14:20:26,340  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+14:20:26,341  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+14:20:26,341  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+14:20:26,341  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+14:20:26,341  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+14:20:26,342  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+14:20:26,342  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+14:20:26,342  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+14:20:26,343  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+14:20:26,343  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+14:20:26,343  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+14:20:26,343  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+14:20:26,344  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+14:20:26,344  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+14:20:26,345  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+14:20:26,346  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+14:20:26,346  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+14:20:26,346  INFO BeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+14:20:26,346  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+14:20:26,349  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+14:20:26,349  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+14:20:26,350  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+14:20:26,350  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+14:20:26,350  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+14:20:26,351  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+14:20:26,351  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+14:20:26,355  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+14:20:26,356  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+14:20:26,357  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+14:20:26,375  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+14:20:26,376  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+14:20:26,376  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+14:22:05,496  INFO QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+14:23:28,343  WARN HqlSqlWalker:992 - [DEPRECATION] Encountered positional parameter near line 1, column 40 in HQL: [from com.so.entity.User u where u.code=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+14:26:59,891  WARN HqlSqlWalker:992 - [DEPRECATION] Encountered positional parameter near line 1, column 39 in HQL: [from com.so.entity.Category where cid=? ].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+14:31:18,771  WARN HqlSqlWalker:992 - [DEPRECATION] Encountered positional parameter near line 1, column 38 in HQL: [from com.so.entity.Orders where uid =?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+22:51:08,573  INFO DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+22:51:08,606  INFO DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2a2d45ba, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a5ca609, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@20e2cbe0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@68be2bc2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@28feb3fa, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@675d3402]
+22:51:08,842  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext.xml]
+22:51:09,181  INFO GenericApplicationContext:582 - Refreshing org.springframework.context.support.GenericApplicationContext@3f49dace: startup date [Wed Dec 19 22:51:09 CST 2018]; root of context hierarchy
+22:51:09,487  INFO MLog:80 - MLog clients using log4j logging.
+22:51:09,968  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+22:51:10,185  INFO Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+22:51:10,188  INFO Environment:213 - HHH000206: hibernate.properties not found
+22:51:10,189  INFO Environment:317 - HHH000021: Bytecode provider name : javassist
+22:51:10,244  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+22:51:10,370  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1j78uw51pa318r|69fb6037, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1j78uw51pa318r|69fb6037, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+22:51:10,706  INFO Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+22:51:10,762  INFO LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+22:51:11,623  INFO SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+22:51:12,109  INFO HibernateTransactionManager:357 - Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1j78uw51pa318r|69fb6037, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1j78uw51pa318r|69fb6037, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]] of Hibernate SessionFactory for HibernateTransactionManager
+22:51:12,354  INFO QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+22:51:12,822  INFO GenericApplicationContext:987 - Closing org.springframework.context.support.GenericApplicationContext@3f49dace: startup date [Wed Dec 19 22:51:09 CST 2018]; root of context hierarchy
+22:51:40,749  INFO DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+22:51:40,775  INFO DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2a2d45ba, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a5ca609, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@20e2cbe0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@68be2bc2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@28feb3fa, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@675d3402]
+22:51:40,940  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext.xml]
+22:51:41,359  INFO GenericApplicationContext:582 - Refreshing org.springframework.context.support.GenericApplicationContext@3f49dace: startup date [Wed Dec 19 22:51:41 CST 2018]; root of context hierarchy
+22:51:41,709  INFO MLog:80 - MLog clients using log4j logging.
+22:51:42,202  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+22:51:42,412  INFO Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+22:51:42,414  INFO Environment:213 - HHH000206: hibernate.properties not found
+22:51:42,416  INFO Environment:317 - HHH000021: Bytecode provider name : javassist
+22:51:42,474  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+22:51:42,613  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1j79jrm126quxi|69fb6037, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1j79jrm126quxi|69fb6037, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+22:51:42,963  INFO Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+22:51:43,031  INFO LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+22:51:43,783  INFO SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+22:51:44,322  INFO HibernateTransactionManager:357 - Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1j79jrm126quxi|69fb6037, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1j79jrm126quxi|69fb6037, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]] of Hibernate SessionFactory for HibernateTransactionManager
+22:51:44,596  INFO QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+22:51:45,055  INFO GenericApplicationContext:987 - Closing org.springframework.context.support.GenericApplicationContext@3f49dace: startup date [Wed Dec 19 22:51:41 CST 2018]; root of context hierarchy
+15:55:24,435  INFO ContextLoader:305 - Root WebApplicationContext: initialization started
+15:55:24,544  INFO XmlWebApplicationContext:582 - Refreshing Root WebApplicationContext: startup date [Sun Dec 23 15:55:24 CST 2018]; root of context hierarchy
+15:55:24,591  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext.xml]
+15:55:25,107  INFO AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+15:55:25,279  INFO MLog:80 - MLog clients using log4j logging.
+15:55:25,324  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+15:55:25,605  INFO Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+15:55:25,605  INFO Environment:213 - HHH000206: hibernate.properties not found
+15:55:25,605  INFO Environment:317 - HHH000021: Bytecode provider name : javassist
+15:55:25,887  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+15:55:26,105  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1oi5mgtu7a7sm|471d1cd1, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1oi5mgtu7a7sm|471d1cd1, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+15:55:26,465  INFO Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+15:55:26,515  INFO LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+15:55:27,187  INFO SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+15:55:27,796  INFO HibernateTransactionManager:357 - Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1oi5mgtu7a7sm|471d1cd1, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1oi5mgtu7a7sm|471d1cd1, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]] of Hibernate SessionFactory for HibernateTransactionManager
+15:55:27,850  INFO ContextLoader:345 - Root WebApplicationContext: initialization completed in 3399 ms
+15:55:28,085  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+15:55:28,194  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+15:55:28,225  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+15:55:28,225  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+15:55:28,241  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+15:55:28,241  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+15:55:28,241  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+15:55:28,241  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+15:55:28,241  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+15:55:28,241  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+15:55:28,241  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+15:55:28,241  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+15:55:28,241  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+15:55:28,241  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+15:55:28,257  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+15:55:28,257  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+15:55:28,257  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+15:55:36,426  INFO QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+16:18:44,420  INFO ContextLoader:305 - Root WebApplicationContext: initialization started
+16:18:44,514  INFO XmlWebApplicationContext:582 - Refreshing Root WebApplicationContext: startup date [Sun Dec 23 16:18:44 CST 2018]; root of context hierarchy
+16:18:44,576  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext.xml]
+16:18:45,045  INFO AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16:18:45,185  INFO MLog:80 - MLog clients using log4j logging.
+16:18:45,248  INFO C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+16:18:45,467  INFO Version:37 - HHH000412: Hibernate Core {5.0.7.Final}
+16:18:45,467  INFO Environment:213 - HHH000206: hibernate.properties not found
+16:18:45,467  INFO Environment:317 - HHH000021: Bytecode provider name : javassist
+16:18:45,607  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+16:18:45,716  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1oizmnk8u1kjo|3ccc9cbb, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1oizmnk8u1kjo|3ccc9cbb, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+16:18:46,013  INFO Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:18:46,060  INFO LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+16:18:46,591  INFO SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+16:18:46,991  INFO HibernateTransactionManager:357 - Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b618xm9z1oizmnk8u1kjo|3ccc9cbb, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b618xm9z1oizmnk8u1kjo|3ccc9cbb, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/shoppingonline, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]] of Hibernate SessionFactory for HibernateTransactionManager
+16:18:47,038  INFO ContextLoader:345 - Root WebApplicationContext: initialization completed in 2618 ms
+16:18:47,241  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+16:18:47,335  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+16:18:47,366  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+16:18:47,381  INFO BeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+16:18:47,413  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+16:18:47,413  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+16:18:47,413  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+16:19:24,001  INFO QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+16:21:28,895  WARN HqlSqlWalker:992 - [DEPRECATION] Encountered positional parameter near line 1, column 40 in HQL: [from  com.so.entity.Product where cid =?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+16:22:51,166  WARN HqlSqlWalker:992 - [DEPRECATION] Encountered positional parameter near line 1, column 39 in HQL: [from  com.so.entity.Product WHERE pid=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+16:23:14,100  WARN HqlSqlWalker:992 - [DEPRECATION] Encountered positional parameter near line 1, column 38 in HQL: [from com.so.entity.Orders where uid =?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
